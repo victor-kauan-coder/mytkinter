@@ -218,4 +218,10 @@ root.mainloop()
 Neste exemplo:
 - Criamos uma janela com um campo de entrada de texto e um botão.
 - A função `exibir_mensagem()` é chamada quando o botão é clicado ou quando o usuário pressiona Enter no campo de entrada.
-- A mensagem exibida contém 
+- A mensagem exibida contém
+
+## Anexo
+
+[Mind map básico do TKinter](https://raw.githubusercontent.com/armandossrecife/mytkinter/refs/heads/main/Mind_Map_Tkinter.png)
+
+[PodCast TKinter](https://github.com/ufpi-lp/lp2025-1/raw/refs/heads/main/A_Essencia_do_Tkinter_%20Interfaces_Graficas_em_Python.wav)
