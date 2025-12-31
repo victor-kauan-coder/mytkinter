@@ -1,6 +1,9 @@
 import tkinter as tk
+from tkinter import messagebox
 from PIL import Image, ImageTk
 
+def som():
+            return messagebox.showinfo('message','ding dong!')
 class ImageDemo(tk.Tk):
     def __init__(self):
         super().__init__()
@@ -12,7 +15,7 @@ class ImageDemo(tk.Tk):
 
         # Load image
         try:
-            icons_path = './icons'
+            icons_path = 'C:/Users/kauan/Documents/Code/mytkinter/exemplos/icons'
             my_bell = icons_path + '/' + 'bell.png'
             self.image = Image.open(my_bell)
             self.photo_image = ImageTk.PhotoImage(self.image)
@@ -23,9 +26,10 @@ class ImageDemo(tk.Tk):
         # Create label with image
         self.image_label = tk.Label(text='Bell', image=self.photo_image, compound='top')
         self.image_label.pack()
+        
 
         # Create button with image
-        self.image_button = tk.Button(text='Bell', image=self.photo_image, compound='top')
+        self.image_button = tk.Button(text='Bell', image=self.photo_image,command=som)
         self.image_button.pack()
 
 if __name__ == "__main__":

@@ -5,7 +5,7 @@ root = tk.Tk()  # Use tk.Tk() for the main window
 root.title("Canvas with Ovals and Text")
 
 # Create the canvas widget
-c = tk.Canvas(root, width=600, height=300, background='lightblue')
+c = tk.Canvas(root,width=600, height=300, background='lightblue')
 c.pack()  # Add the canvas to the main window
 
 # Create lines
